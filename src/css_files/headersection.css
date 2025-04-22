@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(0, 3, 25, 1);
+    
+}
+
+
+.Header {
+    padding: 1.5rem 30%;
+    position: fixed; 
+    top: 0;           
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    
+}
+
+.nav-bar {
+    border: 0.2px solid rgb(138, 142, 171);
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(2, 9, 54, 0.85);
+    height: 3.5rem;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar-headings {
+    color: white;
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width: 760px) {
+    .nav-bar {
+        height: 30px;
+    }
+
+    .nav-bar-headings {
+        color: white;
+        font-size: 0.5rem;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .nav-bar {
+        height: 30px;
+    }
+
+    .nav-bar-headings {
+        color: white;
+        font-size: 0.4rem;
+    }
+}
+
